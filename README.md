@@ -27,4 +27,24 @@ feature for the app
 home delivery of medicines if user wants to.
 
 ## Experience the alpha version
-Download the app here
+Download the app here: [AMHF-DevOps](https://github.com/mayankkanela/AMF-DevOps/blob/master/apk/app-debug.apk?raw=true)
+
+Use Email : devops.angels@gmail.com
+
+Use Password: Password@123
+
+**Note :** 
+-   Internet is required to use the app
+-   Since the app was made in limited time all the                   functionalites could not be achieved.
+-   Data and app architecture is complete.
+-       Most basic functionalities are complete except reply.
+
+## Todo
+-  Add hashing to make data unidentifiable for the admin.
+-   Decntralization of data using blockstack library.
+- Improving the UI
+
+## Screens
+
+### SignIn 
+![SignIn](https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg)
