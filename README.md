@@ -47,4 +47,4 @@ Use Password: Password@123
 ## Screens
 
 ### SignIn 
-![SignIn](https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg =250px)
+![SignIn](https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg=250x)
