@@ -1,4 +1,4 @@
-(https://img.shields.io/github/license/mayankkanela/AMF-DevOps)
+[![license](https://img.shields.io/github/license/mayankkanela/AMF-DevOps)
 ## Anonymous Mental Health Forum: Android App
 
 We are trying to make a forum for people to
