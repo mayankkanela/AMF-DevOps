@@ -26,7 +26,7 @@ feature for the app
 - Remote treatment using video call features and
 home delivery of medicines if user wants to.
 
-## Experience the alpha version
+## Experience the alpha version(Download and test app)
 Download the app here: [AMHF-DevOps](https://github.com/mayankkanela/AMF-DevOps/blob/master/apk/app-debug.apk?raw=true)
 
 Use Email : devops.angels@gmail.com
@@ -48,3 +48,23 @@ Use Password: Password@123
 
 ### SignIn 
 <img src=https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg alt="drawing" width="250">
+
+### Your Issues
+<img src=https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031421_AMF-DevOPsjpg alt="drawing" width="250">
+
+### All Issues
+<img src=https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031437_AMF-DevOPsjpg alt="drawing" width="250">
+
+### New Thread
+<img src=https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031451_AMF-DevOPsjpg alt="drawing" width="250">
+
+### On Touch Issues 
+<img src=https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031505_AMF-DevOPsjpg alt="drawing" width="250">
+
+## Making the app
+This app uses google firebase and a google api read the [Firebase Docs](https://firebase.google.com/docs) to get started.
+**Note** : Requires Android studio with **api>23** to function. 
+## Refrence
+
+- Android docs :https://developer.android.com/docs
+- Firebase docs :https://firebase.google.com/docs
