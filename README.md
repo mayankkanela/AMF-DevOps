@@ -47,19 +47,20 @@ Use Password: Password@123
 ## Screens
 
 ### SignIn 
-<img src="https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg" alt="drawing" width="250">
+<img src="https://github.com/mayankkanela/AMF-DevOps/raw/master/screenshots/Screenshot_20200109-031357_AMF-DevOPs.jpg"
+alt="drawing" width="250">
 
 ### Your Issues
 <img src="https://github.com/mayankkanela/AMF-DevOps/raw/master/screenshots/Screenshot_20200109-031421_AMF-DevOPs.jpg" alt="drawing" width="250">
 
 ### All Issues
-<img src="https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031437_AMF-DevOPs.jpg" alt="drawing" width="250">
+<img src="https://github.com/mayankkanela/AMF-DevOps/raw/master/screenshots/Screenshot_20200109-031437_AMF-DevOPs.jpg" alt="drawing" width="250">
 
 ### New Thread
-<img src="https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031451_AMF-DevOPsjpg" alt="drawing" width="250">
+<img src="https://github.com/mayankkanela/AMF-DevOps/raw/master/screenshots/Screenshot_20200109-031451_AMF-DevOPs.jpg" alt="drawing" width="250">
 
-### On Touch Issues 
-<img src="https://github.com/mayankkanela/AMF-DevOps/blob/master/screenshotsScreenshot_20200109-031505_AMF-DevOPs.jpg" alt="drawing" width="250">
+### FullThread
+<img src="https://github.com/mayankkanela/AMF-DevOps/raw/master/screenshots/Screenshot_20200109-031505_AMF-DevOPs.jpg" alt="drawing" width="250">
 
 ## Making the app
 This app uses google firebase and a google api read the [Firebase Docs](https://firebase.google.com/docs) to get started.
