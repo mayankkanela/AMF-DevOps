@@ -1,6 +1,7 @@
 package com.mayank.amf_devops.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mayank.amf_devops.R;
+import com.mayank.amf_devops.ThreadActivity;
 
 import java.util.ArrayList;
 
@@ -26,8 +28,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public RecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        layoutInflater.inflate(R.layout.list_item_view, parent, false);
-        return new RecyclerViewHolder(parent);
+        View view = layoutInflater.inflate(R.layout.list_item_view, parent, false);
+        return new RecyclerViewHolder(view);
     }
 
     @Override
@@ -46,14 +48,16 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     public class RecyclerViewHolder extends RecyclerView.ViewHolder {
-        private TextView tvTitle;
+        TextView tvTitle;
         public RecyclerViewHolder(@NonNull View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.tvTitleiv);
             tvTitle.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-
+                    Intent intent = new Intent(context, ThreadActivity.class);
+                    intent.putExtra("Title",sTitles.get(getLayoutPosition()));
+                    context.startActivity(intent);
                 }
             });
         }

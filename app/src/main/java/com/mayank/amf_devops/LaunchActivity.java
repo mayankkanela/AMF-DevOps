@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -17,6 +18,7 @@ public class LaunchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launch);
         mAuth = FirebaseAuth.getInstance();
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -30,7 +32,7 @@ public class LaunchActivity extends AppCompatActivity {
                     startActivity(new Intent(LaunchActivity.this,LoginActivity.class));
                     LaunchActivity.this.finish();
             }
-        },200);
+        },300);
 
     }
 }
